@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color:red;
+    --secondary-color:blue;
+}
+
+
+.costume-scroll{
+    background-image: linear-gradient(to right , #1daeed , #6161ff);
+    border-radius: 35px;
+    position: fixed;
+    height: 4px;
+    top: 0%;
+    transition: 0.1s;
+}
+
+.blue{
+    background-color: lightblue;
+    height: 500px;
+    width: 100%;
+}
+
+.gray{
+    background-color: #333;
+    height: 500px;
+    width: 100%;
+}
